@@ -27,7 +27,7 @@ console.log('L2 Merge!')
 console.log('L2 Ex. 1 - orașe:', getOrase(destinatii))
 console.log('L2 Ex. 1 - nevizitate:', getNevizitate(destinatii).length)
 console.log('L2 Ex. 1 - zile de vizitat:', totalZile(getNevizitate(destinatii)))
-console.log(getNevizitate(destinatii).map(formatDestinatie).join('\n'))
+console.log(destinatii.map(formatDestinatie).join('\n'))
 console.log('L2 Ex. 1 - pe țară:', numarPeTara(destinatii))
 console.log('L2 Ex. 1 - cea mai lungă vizită:', sortDupaZile(destinatii)[0].oras)
 
